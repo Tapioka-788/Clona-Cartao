@@ -1,4 +1,13 @@
-section{
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+section {
     width: 100vw;
     height: 100vh;
 
@@ -9,31 +18,30 @@ section{
 
 
 
-.teste{
+.teste {
     width: 10vw;
     height: 10vw;
     margin: 10vh;
 }
 
-#um{
+#um {
     background-color: rgb(227, 230, 232);
 }
 
-#do{
+#do {
     background-color: rgb(28, 6, 41);
 }
 
-#tr{
+#tr {
     background-color: rgb(124, 0, 196);
 }
 
-#qu{
+#qu {
     background-color: rgb(176, 179, 184);
 }
 
-#cartaoBase{
+.cartao{
     width: 29vw;
-    height: 30vh;
     margin: 10vh;
 
     border-radius: 0.5vw;
@@ -41,127 +49,161 @@ section{
     background-color: rgb(32, 32, 32);
 }
 
-#topo{
-    width: 28vw;
-    height: 8vh;
+#cartaoBase {
+    height: 30vh;
+    #topo {
+        width: 28vw;
+        height: 8vh;
 
-    padding: 1vh;
-
-    display: flex;
-    justify-content: space-between;
-
-    #bolinhas{
-        width: 10vw;
+        padding: 1vh;
 
         display: flex;
+        justify-content: space-between;
 
-        #bola1{
-            width: 4vw;
-            height: 4vw;
+        #bolinhas {
+            width: 10vw;
 
-            border-radius: 50%;
+            display: flex;
 
-            background-color: rgb(176, 179, 184);
+            #bola1 {
+                width: 4vw;
+                height: 4vw;
+
+                border-radius: 50%;
+
+                background-color: rgb(176, 179, 184);
+            }
+
+            #bola2 {
+                width: 2vw;
+                height: 2vw;
+
+                border-radius: 50%;
+
+                background-color: rgb(176, 179, 184);
+            }
         }
 
-        #bola2{
-            width: 2vw;
-            height: 2vw;
+        #nomeBanco {
+            margin-top: -1vh;
 
-            border-radius: 50%;
-
-            background-color: rgb(176, 179, 184);
-        }
-    }
-
-    #nomeBanco{
-        margin-top: -1vh;
-
-        color: rgb(176, 179, 184);
-    }
-}
-
-#meinho{
-    width: 28vw;
-    height: 6vh;
-
-    padding: 1vh;
-
-    display: flex;
-    justify-content: space-between;
-    color: rgb(176, 179, 184);
-
-    #chipAntena{
-        width: 12vw;
-        display: flex;
-        align-items: center;
-
-        #chip{
-            width: 3vw;
-            height: 4vh;
-
-            margin: 0vh 1vh;
-
-            background-color: rgb(176, 179, 184);
-        }
-
-        #antena{
-            width: 1vw;
-            height: 2vh;
-            background-color: rgb(176, 179, 184);
-        }
-    }
-    
-}
-#numeros{
-    width: 28vw;
-    height: 4vh;
-
-    padding: 1vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    #numeroCartao{
-        color: rgb(176, 179, 184);
-    }
-
-    #valid{
-        height: 4vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        padding-top: 1vh;
-
-        .txtvalid{
             color: rgb(176, 179, 184);
-            font-size: 2vh;
-            margin: -0.5vh;
-            margin-left: 4vw;
         }
     }
 
+    #meinho {
+        width: 28vw;
+        height: 6vh;
+
+        padding: 1vh;
+
+        display: flex;
+        justify-content: space-between;
+        color: rgb(176, 179, 184);
+
+        #chipAntena {
+            width: 12vw;
+            display: flex;
+            align-items: center;
+
+            #chip {
+                width: 3vw;
+                height: 4vh;
+
+                margin: 0vh 1vh;
+
+                background-color: rgb(176, 179, 184);
+            }
+
+            #antena {
+                width: 1vw;
+                height: 2vh;
+                background-color: rgb(176, 179, 184);
+            }
+        }
+
+    }
+
+    #numeros {
+        width: 28vw;
+        height: 4vh;
+
+        padding: 1vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #numeroCartao {
+            color: rgb(176, 179, 184);
+        }
+
+        #valid {
+            height: 4vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            padding-top: 1vh;
+
+            .txtvalid {
+                color: rgb(176, 179, 184);
+                font-size: 2vh;
+                margin: -0.5vh;
+                margin-left: 4vw;
+            }
+        }
+
+    }
+
+    #nomeN {
+        height: 5vh;
+
+        color: rgb(176, 179, 184);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-#nomeN{
-    height: 5vh;
-    
-    color: rgb(176, 179, 184);
+#cartaoBaseBack{
+    height: 28vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 2vh;
+    #topoBack{
+        width: 29vw;
+        height: 6vh;
+
+        background-color: rgb(20, 20, 20);
+    }
+
+    #meinhoBack{
+        width: 25vw;
+        height: 6vh;
+
+        margin: 0vh 2vw;
+
+        background-color: rgb(176, 179, 184);
+        justify-content: end;
+        align-items: center;
+        h1{
+           margin-left: 20vw;
+        }
+    }
 }
 
-@media screen and (max-width: 480px), (max-height: 882px) {
 
-}
+
+@media screen and (max-width: 480px),
+(max-height: 882px) {}
 
 /* dev functions*/
 
-#traporte{
+#traporte {
+    position: fixed;
+    bottom: 2vh;
+    left: 2vw;
     width: 10vw;
     height: 7vh;
 
