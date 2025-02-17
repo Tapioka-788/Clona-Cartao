@@ -1,0 +1,37 @@
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+#fundo{
+    display: flex;
+}
+
+#lado1{
+    width: 30vw;
+    height: 100vh;
+
+    /* background-color: rgb(124, 0, 196); */
+    background-color: rgb(227, 230, 232);
+}
+
+#lado2{
+    width: 70vw;
+    height: 100vh;
+
+    /* background-color: rgb(227, 230, 232); */
+    background-color: rgb(124, 0, 196);
+}
+
+@media screen and (max-width: 480px), (max-height: 882px) {
+
+}
+
+/* dev functions*/
+
+#traporte{
+    width: 10vw;
+    height: 7vh;
+
+    background-color: red;
+}

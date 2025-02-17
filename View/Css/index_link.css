@@ -1,0 +1,14 @@
+@import url(./index_sect.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px), (max-height: 882px) {
+
+}

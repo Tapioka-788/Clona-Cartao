@@ -1,0 +1,39 @@
+
+Regras de documentação para nosso clona né.
+
+COMENTAR EXPLICANDO OQUE É 
+
+1- CSS
+    - NÂO USAR PX
+    - NÃO USAR POSITION 
+    - COLOCAR O RGB DE CADA COR NA DOCUMENTAÇÃO
+    - EVITAR USAR MARGIN TOP
+
+2- HTML 
+    - NÂO ZOAR NOMES DE ID E CLASS
+    - COLOCAR NOMES QUE REMETEM A COISA
+    - SEMPRE COLOCAR ID
+    
+
+
+
+
+#um{
+    background-color: rgb(227, 230, 232);
+}
+
+#do{
+    background-color: rgb(28, 6, 41);
+}
+
+#tr{
+    background-color: rgb(124, 0, 196);
+}
+
+#qu{
+    background-color: rgb(176, 179, 184);
+}
+
+cartao{
+     fundo:   background-color: rgb(32, 32, 32);
+}
